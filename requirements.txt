@@ -1,0 +1,4 @@
+
+git+https://github.com/Mab879/ari-py@2to3#egg=ari
+kodi-json
+git+https://github.com/Mab879/swagger-py.git@fix_stuff#egg=swaggerpy

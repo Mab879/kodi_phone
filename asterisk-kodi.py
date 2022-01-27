@@ -1,4 +1,3 @@
-import ringer
 import volume
 import os
 import logging
