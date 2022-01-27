@@ -1,9 +1,10 @@
 import ari
 import kodijson
 import sys
+import os
 
-client = ari.connect('http://localhost:8088', 'kodi', 'tacos')
-kodi = kodijson.Kodi("http://10.0.0.251/jsonrpc", ("kodi"))
+client = ari.connect('http://10.0.0.45:8088', 'kodi', os.envrio.get('ARI_PASSWORD'))
+kodi = kodijson.Kodi("http://10.0.0.251:8080/jsonrpc", ("kodi"))
 
 class g():
     pass
